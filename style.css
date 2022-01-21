@@ -1,3 +1,50 @@
+body {
+  background-color: rgb(255, 254, 253);
+}
+.navbar {
+  background-color: #c2dbcd !important;
+}
+
+.nav-link {
+  color: #7c670b !important;
+}
+.nav-link:hover {
+  color: rgb(9, 128, 15) !important;
+}
+
 .modon {
-  height: 148px;
+  height: 138px;
+}
+button {
+  background-color: #d70f64;
+  color: white;
+  width: 115px;
+  height: 40px;
+  border-radius: 11px 5px;
+}
+button:hover {
+  color: rgb(35, 160, 129);
+  background-color: #ffd64e;
+  border-radius: 5px 11px;
+}
+.fa-star {
+  color: #ffd035;
+}
+.different {
+  color: rgb(80, 68, 46);
+}
+.fa-star-half {
+  color: rgb(80, 68, 46);
+}
+.card {
+  width: 300px;
+}
+.card:hover {
+  transform: scale(1.1);
+  z-index: 2;
+  transition: 0.8s;
+}
+.faq:hover {
+  transform: rotate(360deg);
+  transition: 1.9s;
 }

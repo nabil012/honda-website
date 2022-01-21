@@ -7,11 +7,12 @@
     <title>Honda CBR Website</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/2538909b97.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg navbar-light  ">
+            <div class="container">
             
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -19,7 +20,7 @@
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                   <li class="nav-item">
-                    <a class="nav-link active me-5" aria-current="page" href="#Home">Home</a>
+                    <a class="nav-link active me-4" aria-current="page" href="#Home">Home</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link me-4" href="#Shop">Shop</a>
@@ -28,10 +29,10 @@
                     <a class="nav-link me-4" href="#News">News</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link me-5 " href="#News">Contact</a>
+                    <a class="nav-link me-4 " href="#FAQ">FAQ</a>
                   </li>
-                  <li class="nav-item mt-1 me-4">
-                   <button>Login</button>
+                  <li class="nav-item mt-1 ">
+                   <button class="border">Login</button>
                   </li>
                   <li class="nav-item">
                    
@@ -43,14 +44,14 @@
             </div>
           </nav>
     </header>
-
-<section class=container mb-5>
+<main>
+<section class="container bike-show mb-5" id="Home" >
 <div class="row">
     <div class="col-lg-6 col-md-6 col-sm-12 col-12 align-self-center">
-        <h2>Honda CBR 300R</h2>
-        <p>Computer-controlled digital transistorized with electronic advance</p>
-        <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
-        <button>purchase</button>
+        <h1 class="fw-bolder" style="color: rgb(0, 0, 0);" >Honda CBR <span style="color: rgba(126, 160, 31, 0.856);" >300R</span></h1>
+        <p class="fw-ligh">Computer-controlled digital transistorized with electronic advance</p>
+        <p class="fw-lighter">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+        <button class="border">Purchase</button>
     </div>
     <div class="col-lg-6 col-md-6 col-sm-12 col-12 mt-5">
 <img class="w-100" src="images/header-bike.png" alt="">
@@ -59,34 +60,34 @@
     </div>
 </section>
 
-<section class="container mt-5">
-<h2 class="text-center fw-bold">Featured Bikes 2022</h2>
-<p class="text-center">Best bike collection</p>
+<section class="container mt-5" id="Shop">
+<h2 class="text-center fw-bolder">Featured Bikes <span style="color:
+  rgba(126, 160, 31, 0.856) " >2022</span> </h2>
+<p class="text-center" style="color: rgba(84, 102, 35, 0.856);">Best bike collection</p>
 <div class="d-flex justify-content-center">
     <hr class="w-25 " style="height: 2px; color: rgb(156, 212, 24);" >
 </div>
-</section>
 
-<section class="container">
 
     <div class="row">
-        <div class="col-lg-4 col-md-6 col-sm-6 col-12">
-            <img src="images/kawasaki1.jpg" alt="">
+        <div class="col-lg-4 col-md-6 col-sm-12 col-12">
+            <img class="w-100" src="images/kawasaki1.jpg" alt="">
+            
         </div>
-        <div class="col-lg-4 col-md-6 col-sm-6 col-12">
-            <img src="images/kawasaki-ninja.jpg" alt="">
+        <div class="col-lg-4 col-md-6 col-sm-12 col-12">
+            <img class="w-100"  src="images/kawasaki-ninja.jpg" alt="">
         </div>
-        <div class="col-lg-4 col-md-6 col-sm-6 col-12">
-            <img class="" src="images/ninja.jpg" alt="">
+        <div class="col-lg-4 col-md-6 col-sm-12 col-12">
+            <img class="w-100"  src="images/ninja.jpg" alt="">
         </div>
-        <div class="col-lg-4 col-md-6 col-sm-6 col-12">
-            <img class="" src="images/kkk.jpeg" alt="">
+        <div class="col-lg-4 col-md-6 col-sm-12 col-12">
+            <img class="w-100"  src="images/kkk.jpeg" alt="">
         </div>
-        <div class="col-lg-4 col-md-6 col-sm-6 col-12">
-            <img class="" src="images/ninja1.jpg" alt="">
+        <div class="col-lg-4 col-md-6 col-sm-12 col-12">
+            <img class="w-100"  src="images/ninja1.jpg" alt="">
         </div>
-        <div class="col-lg-4 col-md-6 col-sm-6 col-12">
-            <img class="" src="images/red.jpg
+        <div class="col-lg-4 col-md-6 col-sm-12 col-12">
+            <img class="w-100"  src="images/red.jpg
             " alt="">
         </div>
     </div>
@@ -94,35 +95,44 @@
 </section>
 
 
-<section class="container mt-5">
+<section class="container mt-5" id="News">
 
-    <h2 class="text-center fw-bold">Latest News </h2>
-    <p class="text-center">Upcoming Bike Collection</p>
+    <h2 class="text-center fw-bolder">Latest News <span style="color:rgba(126, 160, 31, 0.856);">2022</span> </h2>
+    <p class="text-center" style="color: rgba(84, 102, 35, 0.856);">Upcoming Bike Collection</p>
 <div class="d-flex justify-content-center">
     <hr class="w-25 " style="height: 2px; color: rgb(251, 255, 0);" >
 </div>
-    <div class="row row-cols-1 row-cols-md-3 g-4 mt-5">
-        <div class="col">
-          <div class="card h-100 border">
-            <img  src="images/bike-2.png" class="card-img-top img-fluid" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-            </div>
-            <div class="card-footer">
-                <button class="border-danger">Read More</button>
-            </div>
-          </div>
+
+
+<div class="d-flex justify-content-center">
+
+
+    <div class="row row-cols-1 row-cols-md-3 g-4 ps-3
+    mt-5">
+   
+    <div class="col">
+      <div class="card h-100 ">
+        <img  src="images/bike-2.png" class="card-img-top " alt="...">
+        <div class="card-body">
+          <h5 class="card-title fw-bolder">Ducati XDIAVEL S-73</h5>
+          <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus nobis odit nesciunt modi tempora quo, blanditiis dolorum velit nam omnis est vitae, amet eos explicabo.</p>
         </div>
+        <div class="card-footer">
+            <button class="border">Read More</button>
+        </div>
+      </div>
+    </div>
+
+
         <div class="col">
           <div class="card h-100">
             <img src="images/bike-3.png" class="card-img-top" alt="...">
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+              <h5 class="card-title fw-bolder">Motorcycles & Scooters</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat reprehenderit soluta quod esse ex quam earum? Consequuntur provident adipisci dolori bus rem dolores, a voluptatem quia?.</p>
             </div>
             <div class="card-footer">
-                <button class="border-danger">Read More</button>
+                <button class="border">Read More</button>
             </div>
           </div>
         </div>
@@ -130,19 +140,17 @@
           <div class="card h-100">
             <img src="images/bike-1.png" class="card-img-top" alt="...">
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+              <h5 class="card-title fw-bolder">Ducati DIAVEL C-23</h5>
+              <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit quia perferendis nulla repellat unde culpa dolores nihil dignissimos, adipisci aspernatur fugit iste, nam non excepturi.</p>
             </div>
             <div class="card-footer">
-           <button class="border-danger">Read More</button>
+           <button class="border">Read More</button>
             </div>
           </div>
         </div>
       </div>
-
+</div>
 </section>
-
-
 
 
 
@@ -188,74 +196,196 @@
 </section> -->
   
 <section class="container">
-  <h2 class="text-center fw-bold mt-5">Happy Clients says</h2>
+  <h2 class="text-center fw-bolder mt-5">Happy <span style="color: rgba(126, 160, 31, 0.856);" >Clients</span>  Says</h2>
     <div class="d-flex justify-content-center mb-5">
         <hr class="w-25 " style="height: 2px; color: rgb(255, 0, 0);" >
     </div>
-<div class="row ">
-  <div class="col-lg-3 col-md-4 col-sm-6 col-12 me-4 border">
+<div class="row d-flex justify-content-center gy-4 gap-3  ">
+  <div class="card col-lg-3 col-md-4 col-sm-12 col-12  border">
     <div class="row">
       <div class="d-flex justify-content-center col-lg-12 col-md-12 col-sm-12 col-12">
-        <img class="w-50 " src="images/user-1.png" alt="">
+        <img class="w-50 mt-2 " src="images/user-1.png" alt="">
       </div>
       <div class="col-lg-12 col-md-12 col-sm-12 col-12">
-        Slate helps you see how 
-        many more days you need 
-        to work to reach your financial 
-        goal for the month and year.
+        <p class=" text-center fw-light">
+          Slate helps you see how 
+          many more days you need 
+          to work to reach your financial 
+          goal for the month and year.</p>
+      </div>
+      <div class="col-lg-12 col-md-12 col-sm-12 col-12 d-flex justify-content-center mb-1">
+       <div> <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star-half different"></i></div>
       </div>
       <div class="col-lg-12 col-md-12 col-sm-12 col-12">
-<p>Regina Miles</p>
+<h5 style="color: #5f380b;" class="text-center fw-bolder">Andrew Fletch</h5>
       </div>
       <div class="col-lg-12 col-md-12 col-sm-12 col-12">
-<p>banker</p>
+<p style="color: #5c7c04;" class="text-center fw-bold">Engineer</p>
       </div>
     </div>
   </div>
 
 
-  <div class="col-lg-3 col-md-4 col-sm-6 col-12 border">
+  <div class="card col-lg-3 col-md-4 col-sm-12 col-12 border ">
 <div class="row ">
       <div class="d-flex justify-content-center col-lg-12 col-md-12 col-sm-12 col-12">
-        <img class="w-50 " src="images/user-2.png" alt="">
+        <img class="w-50 mt-2" src="images/user-2.png" alt="">
       </div>
       <div class="col-lg-12 col-md-12 col-sm-12 col-12">
+       <p class=" text-center fw-light">
         Slate helps you see how 
         many more days you need 
         to work to reach your financial 
-        goal for the month and year.
+        goal for the month and year.</p>
+      </div>
+      <div class="col-lg-12 col-md-12 col-sm-12 col-12 d-flex justify-content-center mb-1">
+        <div> <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star different"></i><i class="far fa-star-half different"></i></div>
+       </div>
+      <div class="col-lg-12 col-md-12 col-sm-12 col-12">
+ <h5 style="color: #5f380b;" class="text-center fw-bolder ">Aliya Pushpa</h5>
       </div>
       <div class="col-lg-12 col-md-12 col-sm-12 col-12">
- <p>Regina Miles</p>
-      </div>
-      <div class="col-lg-12 col-md-12 col-sm-12 col-12">
- <p>banker</p>
+ <p style="color: #5c7c04;" class="text-center fw-bold">Teacher</p>
       </div>
     </div>
   </div>
 
 
-  <div class="col-lg-3 col-md-4 col-sm-6 col-12 border">
+  <div class="card col-lg-3 col-md-4 col-sm-12 col-12 border">
  <div class="row">
       <div class="d-flex justify-content-center col-lg-12 col-md-12 col-sm-12 col-12 ">
-        <img class="modon w-50 rounded-circle"src="images/andre.jpg" alt="">
+        <img class="modon w-50 mt-2 rounded-circle"src="images/andre.jpg" alt="">
       </div>
       <div class="col-lg-12 col-md-12 col-sm-12 col-12">
-        Slate helps you see how 
-        many more days you need 
-        to work to reach your financial 
-        goal for the month and year.
+        <p class=" text-center fw-light">Slate helps you see how 
+          many more days you need 
+          to work to reach your financial 
+          goal for the month and year.</p>
+      </div>
+      <div class="col-lg-12 col-md-12 col-sm-12 col-12 d-flex justify-content-center mb-1">
+        <div> <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star-half"></i></div>
+       </div>
+      <div class="col-lg-12 col-md-12 col-sm-12 col-12">
+ <h5 style="color: #5f380b;" class="text-center fw-bolder">Reginson Miles</h5>
       </div>
       <div class="col-lg-12 col-md-12 col-sm-12 col-12">
- <h5 class="text-center ">Regina Miles</h5>
-      </div>
-      <div class="col-lg-12 col-md-12 col-sm-12 col-12">
- <p class="text-center fw-bold">banker</p>
+ <p style="color: #5c7c04;"class="text-center fw-bold">Banker</p>
       </div>
     </div>
   </div>
 </div>
 </section>
+
+<section class="container mb-5" id="FAQ">
+  <h2 class="text-center fw-bold mt-5">Frequently Asked <span style="color: rgba(126, 160, 31, 0.856);">Questions</span> </h2>
+  <div class="d-flex justify-content-center mb-5">
+      <hr class="w-25 " style="height: 2px; color: rgb(0, 38, 255);" >
+</div>
+
+      <div class="row gy-4">
+        <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+        <img class="w-75 faq" src="images/faq.png" alt="">
+        </div>
+
+        <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+          <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  What are the most important things I should
+                  know about riding a bike?
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                   <p class="fw-light">Safety First! Always obey the rules of the road. Obey all traffic signals, signs, and laws. Get in the mindset of “driving” your bike—not just “riding” your bike. This will help you be a more focused and legally compliant bike rider. </p>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  How can I tell if my helmet is old and I need a 
+                  new one?
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                 <p class="fw-light">its entirely possible the bike is good and safe to ride with a bit of air in the tires and shocks/forks - this would heavily depend on the climate in the garage it was stored in and condition it was in before being hung up.</p>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  My bike has been in storage is it safe to ride?
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                 <p class="fw-light">Its entirely possible the bike is good and safe to ride with a bit of air in the tires and shocks/forks - this would heavily depend on the climate in the garage it was stored in and condition it was in before being hung up.</p>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  What rules should I follow when riding my bike?
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                 <p class="fw-light"><li>
+                  Go With the Traffic Flow.
+                 </li>
+                 <li> Ride on the right in the same direction as other vehicles. 
+                 </li>
+                 <li>
+                  Obey All Traffic Laws. A bicycle is a vehicle and you're a driver. 
+                 </li>
+                 <li>
+                  Yield to Traffic When Appropriate.
+                 </li>
+                 <li>
+                  Be Predictable.
+                 </li>
+                 <li>
+                  Stay Alert at All Times.
+                 </li>
+                 
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+</section>
+
+</main>
+
+ <footer>
+  <section class="container bg-dark text-light ps-5 pt-3 mb-3 pb-3"> 
+   
+  <div class="row">
+    <div class="col-lg-12 col-md-12 col-sm-12 col-12">
+     <p class="text-center mt-5">© 2022 Developed by Saeed Hasan Nabil . All rights reserved</p>
+    </div>
+    
+     </div>
+   
+  </div>
+
+</section>
+
+</footer> 
+
+
+
+
+
+
+
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 </html>
